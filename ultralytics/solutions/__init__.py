@@ -2,6 +2,7 @@
 
 from .ai_gym import AIGym
 from .analytics import Analytics
+from .behavior_detector import BehaviorDetector, run_behavior_detection
 from .distance_calculation import DistanceCalculation
 from .heatmap import Heatmap
 from .instance_segmentation import InstanceSegmentation
@@ -21,9 +22,9 @@ from .vision_eye import VisionEye
 __all__ = (
     "AIGym",
     "Analytics",
+    "BehaviorDetector",
     "DistanceCalculation",
     "Heatmap",
-    "Inference",
     "InstanceSegmentation",
     "ObjectBlurrer",
     "ObjectCounter",
@@ -38,4 +39,5 @@ __all__ = (
     "TrackZone",
     "VisionEye",
     "VisualAISearch",
+    "run_behavior_detection",
 )
