@@ -381,4 +381,110 @@ Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:1.0, P:-
 Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:1.1, P:-36.3), Reps=1
 Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:1.2, P:-37.3), Reps=1
 Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-1.1, P:33.7), Reps=1
-Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-3.2, P:33.9), Reps=1
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-3.2, P:33.9), Reps=1WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1786558019.779233  620186 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1786558019.783266  620300 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 26.1.5-1), renderer: Mesa Intel(R) Iris(R) Xe Graphics (TGL GT2)
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1786558019.786382  620288 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Ultralytics Solutions: ✅ {'source': None, 'model': 'yolo26n-pose.pt', 'classes': None, 'show_conf': True, 'show_labels': True, 'show_boxes': True, 'region': None, 'colormap': 21, 'show_in': True, 'show_out': True, 'up_angle': 145.0, 'down_angle': 90, 'kpts': [6, 8, 10], 'analytics_type': 'line', 'figsize': (12.8, 7.2), 'blur_ratio': 0.5, 'vision_point': (20, 20), 'crop_dir': 'cropped-detections', 'json_file': None, 'line_width': 2, 'records': 5, 'fps': 30.0, 'max_hist': 5, 'meter_per_pixel': 0.05, 'max_speed': 120, 'show': False, 'iou': 0.7, 'conf': 0.25, 'device': None, 'max_det': 300, 'quantize': None, 'imgsz': 640, 'tracker': 'botsort.yaml', 'verbose': True, 'data': 'images'}
+W0000 00:00:1786558019.800457  620289 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+QFontDatabase: Cannot find font directory /home/kali/.pyenv/versions/3.12.11/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/kali/.pyenv/versions/3.12.11/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/kali/.pyenv/versions/3.12.11/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/kali/.pyenv/versions/3.12.11/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+QFontDatabase: Cannot find font directory /home/kali/.pyenv/versions/3.12.11/lib/python3.12/site-packages/cv2/qt/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+/home/kali/.pyenv/versions/3.12.11/lib/python3.12/site-packages/google/protobuf/symbol_database.py:55: UserWarning: SymbolDatabase.GetPrototype() is deprecated. Please use message_factory.GetMessageClass() instead. SymbolDatabase.GetPrototype() will be removed soon.
+  warnings.warn('SymbolDatabase.GetPrototype() is deprecated. Please '
+Behavior detection started. Press 'q' to quit.
+Person 1: Attention=looking_away, Expression=neutral, Gaze=center, Head(Y:-7.6, P:-179.0), Reps=0
+Person 1: Attention=looking_away, Expression=neutral, Gaze=center, Head(Y:-7.0, P:-179.4), Reps=0
+Person 1: Attention=looking_away, Expression=neutral, Gaze=center, Head(Y:-7.1, P:-179.2), Reps=0
+Person 1: Attention=looking_away, Expression=neutral, Gaze=center, Head(Y:-7.6, P:-89.4), Reps=0
+Person 1: Attention=looking_away, Expression=neutral, Gaze=center, Head(Y:-7.6, P:-107.4), Reps=0
+Person 1: Attention=looking_away, Expression=neutral, Gaze=center, Head(Y:-7.7, P:-35.7), Reps=0
+Person 1: Attention=looking_away, Expression=neutral, Gaze=center, Head(Y:-7.8, P:35.9), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-8.2, P:107.2), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-7.6, P:107.1), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-7.6, P:178.5), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-7.3, P:178.4), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-7.1, P:107.1), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-5.9, P:36.2), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-5.6, P:-35.3), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-5.2, P:-106.3), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-5.0, P:-178.0), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-5.2, P:-178.3), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-6.4, P:-179.0), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-6.9, P:-179.3), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-6.8, P:-107.9), Reps=0
+Person 1: Attention=looking_away, Expression=surprise, Gaze=center, Head(Y:-7.4, P:-36.6), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-7.8, P:34.1), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-8.0, P:105.3), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-8.0, P:176.7), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-7.7, P:176.6), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.9, P:176.9), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.1, P:177.6), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-4.9, P:178.2), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-4.5, P:178.5), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-4.3, P:178.5), Reps=0
+  -> Behavior change: attentive -> looking_away: looking_away 70% over last 150 frames (cap=50.0%)
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-4.7, P:178.6), Reps=0
+  -> Inattentive: looking_away 68% over last 150 frames (cap=50.0%)
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.0, P:178.6), Reps=0
+  -> Inattentive: looking_away 66% over last 150 frames (cap=50.0%)
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.2, P:178.2), Reps=0
+  -> Inattentive: looking_away 64% over last 150 frames (cap=50.0%)
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.4, P:177.8), Reps=0
+  -> Inattentive: looking_away 62% over last 150 frames (cap=50.0%)
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.0, P:177.1), Reps=0
+  -> Inattentive: looking_away 60% over last 150 frames (cap=50.0%)
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.7, P:176.9), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.8, P:176.7), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.9, P:176.5), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.2, P:176.4), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.9, P:177.2), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.0, P:177.3), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.3, P:177.5), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.6, P:178.0), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.4, P:178.3), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.5, P:178.1), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-7.0, P:177.8), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.7, P:177.3), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.4, P:176.9), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.7, P:176.7), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.6, P:176.6), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.5, P:176.6), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.6, P:177.1), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-7.0, P:177.5), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-7.0, P:177.4), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-7.3, P:177.8), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-7.2, P:178.0), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-6.7, P:177.6), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.0, P:177.2), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-3.6, P:176.8), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-2.1, P:175.8), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-1.0, P:175.1), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-0.7, P:175.2), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-2.3, P:174.9), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-2.8, P:174.6), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-4.5, P:174.4), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.1, P:174.4), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.5, P:174.7), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-4.5, P:175.4), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-4.2, P:176.2), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-3.3, P:177.3), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-2.7, P:178.0), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-2.6, P:177.7), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-2.9, P:177.1), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-3.5, P:175.9), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-4.4, P:175.3), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.3, P:174.1), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.3, P:173.4), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.7, P:173.5), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.5, P:174.0), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-5.2, P:174.1), Reps=0
+Person 1: Attention=attentive, Expression=surprise, Gaze=center, Head(Y:-4.9, P:174.9), Reps=0
